@@ -52,7 +52,7 @@ function get(id) {
 }
 
 function upsert(obj) {
-  if ('object' !== typeof obj) {
+  if (Object.prototype.toString.call(obj) !== '[object Object]') {
     throw 'You can only create plain objects.'
   } else {
     obj.id = obj.id || foreignKey++;
