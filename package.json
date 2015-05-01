@@ -1,0 +1,12 @@
+{
+  "author": "Tuple Labs",
+  "name": "tuple-test-js-2",
+  "version": "2.0.0",
+  "main": "server.js",
+  "dependencies": {},
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrew-templeton/tuple-test-js-2"
+  }
+}
