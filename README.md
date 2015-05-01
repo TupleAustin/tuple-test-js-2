@@ -4,7 +4,7 @@
 
 #### Purpose
 
-This is Tuple Labs' abbreviated JavaScript test project `v2.0.1`. We use this test to provide a basic screening mechanism for JavaScript engineers, but chances are, if you're already taking this test, we simply intend to use it to have something to talk about when you come in and interview with us in person.
+This is Tuple Labs' abbreviated JavaScript test project `v2.0.2`. We use this test to provide a basic screening mechanism for JavaScript engineers, but chances are, if you're already taking this test, we simply intend to use it to have something to talk about when you come in and interview with us in person.
 
 #### Expected Duration
 
