@@ -19,7 +19,7 @@ You will not be penalized for completing only a subset of the requirements, if t
 - Do not worry about other platforms or browsers given the time constraint.
 - Do not use other people for your work.
 - *Do* feel free to use any reference materials you want, Google, Stack Overflow...
-- *Do* feed free to use any libraries or frameworks (Angular, jQuery, Express...)
+- *Do* feel free to use any libraries or frameworks (Angular, jQuery, Express...)
 - You may write in ECMA6 if you like, provided it is turned in transpiled or with a transpiler step for use with ECMA5 for browsers, or note that we should run Node code with the `--harmony` flag.
 - You are not penalized for bad CSS styling. Horrible is fine. We do not expect this to be pretty at all, and it can look straight out of 1999 due to time constraints.
 - Your code cleanliness *does* matter.
