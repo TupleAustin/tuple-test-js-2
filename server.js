@@ -1,8 +1,12 @@
+<<<<<<< HEAD
 // just curious, will this be using express?
 // will this be MEAN?
 // is this standalone Node-centric Middleware?
 
 // use passport for Auth
+=======
+
+>>>>>>> 4d4d5c22d9642d7754d3d1ad310c5248df909ace
 
 // You may totally change any code in here.
 // You may use any libraries you want.
@@ -10,6 +14,7 @@
 
 var fs = require('fs');
 var http = require('http');
+<<<<<<< HEAD
 var http = require('https');  // please sudo npm install https --save
 var passport = require('passport'); // please sudo npm install passport --save
 
@@ -27,6 +32,15 @@ http.createServer(function(req, res) {
   //export this out to a module called startServer();
   //startServer();
 
+=======
+
+var seed = require('./seed');
+var db = require('./fake_db');
+
+var indexFileLocation = './index.html';
+
+http.createServer(function(req, res) {
+>>>>>>> 4d4d5c22d9642d7754d3d1ad310c5248df909ace
   if (req.method == 'GET' && req.url == '/') {
     res.writeHead(200, {'Content-Type': 'text/html'});
     fs.createReadStream(indexFileLocation).pipe(res);
@@ -40,6 +54,7 @@ http.createServer(function(req, res) {
     res.writeHead(404, {'Content-Type': 'text/plain'});
     res.end('404 Not Found');
   }
+<<<<<<< HEAD
 }).listen(8000);  // todo: replace 8000 with config.port.  move port config to config.js
 
 //  HTTPS - TLS/SSL
@@ -50,5 +65,8 @@ http.createServer(function(req, res) {
 //}).listen(8443);  // // todo: replace 8443 with config.port.  move port config to config.js
 
 
+=======
+}).listen(8000);
+>>>>>>> 4d4d5c22d9642d7754d3d1ad310c5248df909ace
 
 console.log('Server running at http://127.0.0.1:8000/');
